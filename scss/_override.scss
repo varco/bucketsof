@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
   Based from this article from Divya Manian - 
   http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
 */
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
 
 * {
     margin: 0;
@@ -27,7 +27,7 @@ h1, h2, h3, h4 {
 
 /* Clip text element */
 .clip-text {
-    font-size: 6em;
+    font-size: 4em;
     font-weight: bold;
     line-height: 1;
     position: relative;
@@ -60,6 +60,7 @@ h1, h2, h3, h4 {
 
 /* Text Background (black zone) */
 .clip-text:after {
+    font-family: "Cabin";
     position: absolute;
     z-index: -1;
     top: .125em;

@@ -5,7 +5,7 @@
  *    user zoom.
  */
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
 /* line 9, ../bower_components/foundation/scss/normalize.scss */
 html {
   font-family: sans-serif;
@@ -9630,7 +9630,7 @@ h1, h2, h3, h4 {
 /* Clip text element */
 /* line 29, ../scss/_override.scss */
 .clip-text {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: bold;
   line-height: 1;
   position: relative;
@@ -9665,6 +9665,7 @@ h1, h2, h3, h4 {
 /* Text Background (black zone) */
 /* line 62, ../scss/_override.scss */
 .clip-text:after {
+  font-family: "Cabin";
   position: absolute;
   z-index: -1;
   top: .125em;
@@ -9676,18 +9677,18 @@ h1, h2, h3, h4 {
 }
 
 /* Change the background position to display letter when the black zone isn't here */
-/* line 74, ../scss/_override.scss */
+/* line 75, ../scss/_override.scss */
 .clip-text--no-textzone:before {
   background-position: -.25em 0;
 }
 
-/* line 78, ../scss/_override.scss */
+/* line 79, ../scss/_override.scss */
 .clip-text--no-textzone:after {
   content: none;
 }
 
 /* Use Background-size cover for photo background and no-repeat background */
-/* line 83, ../scss/_override.scss */
+/* line 84, ../scss/_override.scss */
 .clip-text--cover,
 .clip-text--cover:before {
   background-repeat: no-repeat;
@@ -9696,7 +9697,7 @@ h1, h2, h3, h4 {
 }
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
-/* line 91, ../scss/_override.scss */
+/* line 92, ../scss/_override.scss */
 .clip-text_fifteen {
   background-image: url("http://i.imgur.com/hCrSRTN.png");
   background-position: 50%;
