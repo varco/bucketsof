@@ -27,6 +27,7 @@ h1, h2, h3, h4 {
 
 /* Clip text element */
 .clip-text {
+    font-family: "Cabin";
     font-size: 4em;
     font-weight: bold;
     line-height: 1;
@@ -60,7 +61,6 @@ h1, h2, h3, h4 {
 
 /* Text Background (black zone) */
 .clip-text:after {
-    font-family: "Cabin";
     position: absolute;
     z-index: -1;
     top: .125em;

@@ -9630,6 +9630,7 @@ h1, h2, h3, h4 {
 /* Clip text element */
 /* line 29, ../scss/_override.scss */
 .clip-text {
+  font-family: "Cabin";
   font-size: 4em;
   font-weight: bold;
   line-height: 1;
@@ -9644,7 +9645,7 @@ h1, h2, h3, h4 {
   -webkit-text-fill-color: transparent;
 }
 
-/* line 45, ../scss/_override.scss */
+/* line 46, ../scss/_override.scss */
 .clip-text:before,
 .clip-text:after {
   position: absolute;
@@ -9652,7 +9653,7 @@ h1, h2, h3, h4 {
 }
 
 /* Background */
-/* line 52, ../scss/_override.scss */
+/* line 53, ../scss/_override.scss */
 .clip-text:before {
   z-index: -2;
   top: 0;
@@ -9663,9 +9664,8 @@ h1, h2, h3, h4 {
 }
 
 /* Text Background (black zone) */
-/* line 62, ../scss/_override.scss */
+/* line 63, ../scss/_override.scss */
 .clip-text:after {
-  font-family: "Cabin";
   position: absolute;
   z-index: -1;
   top: .125em;
